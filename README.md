@@ -16,3 +16,4 @@ Full-stack booking application built with NestJS (backend) and Angular (frontend
    git clone https://github.com/anothers17/my-booking-app.git
    cd my-booking-app
    npm run install:all
+   npm run dev
