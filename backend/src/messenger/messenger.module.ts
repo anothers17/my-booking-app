@@ -1,9 +1,9 @@
 import { Module } from '@nestjs/common';
-import { MessengerController } from './messenger.controller';
 import { MessengerService } from './messenger.service';
+import { MessengerController } from './messenger.controller';
 
 @Module({
-  controllers: [MessengerController],
-  providers: [MessengerService]
+  providers: [MessengerService],
+  controllers: [MessengerController]
 })
 export class MessengerModule {}
